@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_quar_small" android:layout_marginBottom="@dimen/margin_quar_small" android:src="@drawable/ic_bottom_dialog_pull" />
+    <TextView android:textAppearance="@style/App.TextAppearance.H4" android:textColor="@color/textPrimary" android:id="@id/tv_repeat" android:background="?selectableItemBackground" android:padding="@dimen/margin_half_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/shared_action_retry" android:paddingStart="@dimen/margin_xmedium" android:paddingEnd="@dimen/margin_xmedium" />
+    <View android:background="@color/dividerColor" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textAppearance="@style/App.TextAppearance.H4" android:textColor="@color/textNegative" android:id="@id/tv_delete" android:background="?selectableItemBackground" android:padding="@dimen/margin_half_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete" android:paddingStart="@dimen/margin_xmedium" android:paddingEnd="@dimen/margin_xmedium" />
+</LinearLayout>

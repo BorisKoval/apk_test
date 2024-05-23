@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="@drawable/$ic_apps__0" android:pathData="M7.5,0L16.5001,0A7.5,7.5 0,0 1,24.0001 7.5L24.0001,16.5001A7.5,7.5 0,0 1,16.5001 24.0001L7.5,24.0001A7.5,7.5 0,0 1,0 16.5001L0,7.5A7.5,7.5 0,0 1,7.5 0z" />
+        <path android:fillColor="#fffafafa" android:pathData="M6.9375,5.4375L9.9375,5.4375A1.5,1.5 0,0 1,11.4375 6.9375L11.4375,9.9375A1.5,1.5 0,0 1,9.9375 11.4375L6.9375,11.4375A1.5,1.5 0,0 1,5.4375 9.9375L5.4375,6.9375A1.5,1.5 0,0 1,6.9375 5.4375z" />
+        <path android:fillColor="#fffafafa" android:pathData="M6.9375,12.5625L9.9375,12.5625A1.5,1.5 0,0 1,11.4375 14.0625L11.4375,17.0625A1.5,1.5 0,0 1,9.9375 18.5625L6.9375,18.5625A1.5,1.5 0,0 1,5.4375 17.0625L5.4375,14.0625A1.5,1.5 0,0 1,6.9375 12.5625z" />
+        <path android:fillColor="#fffafafa" android:pathData="M14.0626,12.5625L17.0626,12.5625A1.5,1.5 0,0 1,18.5626 14.0625L18.5626,17.0625A1.5,1.5 0,0 1,17.0626 18.5625L14.0626,18.5625A1.5,1.5 0,0 1,12.5626 17.0625L12.5626,14.0625A1.5,1.5 0,0 1,14.0626 12.5625z" android:strokeAlpha="0.6" android:fillAlpha="0.6" />
+        <path android:fillColor="#fffafafa" android:pathData="M14.0626,5.4375L17.0626,5.4375A1.5,1.5 0,0 1,18.5626 6.9375L18.5626,9.9375A1.5,1.5 0,0 1,17.0626 11.4375L14.0626,11.4375A1.5,1.5 0,0 1,12.5626 9.9375L12.5626,6.9375A1.5,1.5 0,0 1,14.0626 5.4375z" />
+    </group>
+</vector>

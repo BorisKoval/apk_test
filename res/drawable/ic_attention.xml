@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M9.5734,4.4139C10.6537,2.5277 13.3734,2.5292 14.4522,4.4154L21.6382,16.9803C22.7104,18.8547 21.3557,21.1868 19.1982,21.1868H4.8152C2.6559,21.1868 1.3033,18.8531 2.3752,16.9793L9.5734,4.4139ZM13.1501,5.1601C12.6469,4.2803 11.3788,4.2798 10.875,5.1595L3.6772,17.7242C3.1771,18.5984 3.8084,19.6868 4.8152,19.6868H19.1982C20.2046,19.6868 20.8359,18.5988 20.3362,17.7252L13.1501,5.1601Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M12.0037,9.5647C12.4179,9.5647 12.7537,9.9005 12.7537,10.3147V13.4147C12.7537,13.829 12.4179,14.1647 12.0037,14.1647C11.5895,14.1647 11.2537,13.829 11.2537,13.4147V10.3147C11.2537,9.9005 11.5895,9.5647 12.0037,9.5647Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M10.9962,16.5C10.9962,15.9477 11.4439,15.5 11.9962,15.5H12.0062C12.5585,15.5 13.0062,15.9477 13.0062,16.5C13.0062,17.0522 12.5585,17.5 12.0062,17.5H11.9962C11.4439,17.5 10.9962,17.0522 10.9962,16.5Z" android:fillType="evenOdd" />
+</vector>

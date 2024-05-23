@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h24v24h-24z" />
+        <path android:fillColor="@drawable/$ic_notification_with_background__0" android:pathData="M7.5,0L16.5001,0A7.5,7.5 0,0 1,24.0001 7.5L24.0001,16.5001A7.5,7.5 0,0 1,16.5001 24.0001L7.5,24.0001A7.5,7.5 0,0 1,0 16.5001L0,7.5A7.5,7.5 0,0 1,7.5 0z" />
+        <path android:fillColor="#ffffffff" android:pathData="M12.7801,6.7139C12.5111,7.1788 12.3571,7.7187 12.3571,8.2945C12.3571,10.0401 13.7722,11.4552 15.5178,11.4552C16.0935,11.4552 16.6333,11.3013 17.0982,11.0324V14.0889C17.0982,15.8345 15.6831,17.2496 13.9375,17.2496H9.7232C7.9776,17.2496 6.5625,15.8345 6.5625,14.0889V9.8746C6.5625,8.129 7.9776,6.7139 9.7232,6.7139H12.7801Z" android:strokeAlpha="0.6" android:fillAlpha="0.6" android:fillType="evenOdd" />
+        <path android:fillColor="#ffffffff" android:pathData="M13.4107,8.2947C13.4107,7.1309 14.3541,6.1875 15.5179,6.1875C16.6816,6.1875 17.625,7.1309 17.625,8.2947C17.625,9.4584 16.6816,10.4018 15.5179,10.4018C14.3541,10.4018 13.4107,9.4584 13.4107,8.2947Z" />
+    </group>
+</vector>

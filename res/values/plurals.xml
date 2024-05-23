@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="additional_services">
+        <item quantity="other">%1$d дополнительных услуг</item>
+        <item quantity="zero">%1$d дополнительных услуг</item>
+        <item quantity="one">%1$d дополнительная услуга</item>
+        <item quantity="two">%1$d дополнительные услуги</item>
+        <item quantity="few">%1$d дополнительные услуги</item>
+        <item quantity="many">%1$d дополнительных услуг</item>
+    </plurals>
+    <plurals name="appeals_in_progress">
+        <item quantity="other">%1$d обращений</item>
+        <item quantity="zero">%1$d обращений</item>
+        <item quantity="one">%1$d обращение</item>
+        <item quantity="two">%1$d обращения</item>
+        <item quantity="few">%1$d обращения</item>
+        <item quantity="many">%1$d обращений</item>
+    </plurals>
+    <plurals name="channels">
+        <item quantity="other">%1$d каналов</item>
+        <item quantity="zero">%1$d каналов</item>
+        <item quantity="one">%1$d канал</item>
+        <item quantity="two">%1$d канала</item>
+        <item quantity="few">%1$d канала</item>
+        <item quantity="many">%1$d каналов</item>
+    </plurals>
+    <plurals name="chat_images">
+        <item quantity="other">%1$d изображений</item>
+        <item quantity="zero">%1$d изображений</item>
+        <item quantity="one">%1$d изображение</item>
+        <item quantity="two">%1$d изображения</item>
+        <item quantity="few">%1$d изображения</item>
+        <item quantity="many">%1$d изображений</item>
+    </plurals>
+    <plurals name="comments">
+        <item quantity="other">%1$d комментариев</item>
+        <item quantity="zero">%1$d комментариев</item>
+        <item quantity="one">%1$d комментарий</item>
+        <item quantity="two">%1$d комментария</item>
+        <item quantity="few">%1$d комментария</item>
+        <item quantity="many">%1$d комментариев</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%1$d дней</item>
+        <item quantity="zero">%1$d дней</item>
+        <item quantity="one">%1$d день</item>
+        <item quantity="two">%1$d дня</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Fast forward %d seconds</item>
+        <item quantity="one">Fast forward %d second</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rewind %d seconds</item>
+        <item quantity="one">Rewind %d second</item>
+    </plurals>
+    <plurals name="first_days">
+        <item quantity="other">Первые %1$d дней</item>
+        <item quantity="one">Первый день</item>
+        <item quantity="two">Первые %1$d дня</item>
+        <item quantity="few">Первые %1$d дня</item>
+        <item quantity="many">Первые %1$d дней</item>
+    </plurals>
+    <plurals name="first_months">
+        <item quantity="other">Первые %1$d месяцев</item>
+        <item quantity="one">Первый месяц</item>
+        <item quantity="two">Первые %1$d месяца</item>
+        <item quantity="few">Первые %1$d месяца</item>
+        <item quantity="many">Первые %1$d месяцев</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">in %d days</item>
+        <item quantity="one">tomorrow</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">in %d hours</item>
+        <item quantity="one">in 1 hour</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">in %d mins</item>
+        <item quantity="one">in 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">in %d secs</item>
+        <item quantity="one">in 1 sec</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">yesterday</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">1 hour ago</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">1 min ago</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d secs ago</item>
+        <item quantity="one">1 sec ago</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">1 hour</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">1 minute</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">1 second</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">in %d days</item>
+        <item quantity="one">tomorrow</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">in %d hours</item>
+        <item quantity="one">in 1 hour</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">in %d minutes</item>
+        <item quantity="one">in 1 minute</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">in %d seconds</item>
+        <item quantity="one">in 1 second</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">yesterday</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">1 hour ago</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">1 minute ago</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d seconds ago</item>
+        <item quantity="one">1 second ago</item>
+    </plurals>
+    <plurals name="loyalty_program_bonus_available">
+        <item quantity="other">доступно %1$d бонусов</item>
+        <item quantity="zero">доступно %1$d бонусов</item>
+        <item quantity="one">доступен %1$d бонус</item>
+        <item quantity="two">доступно %1$d бонуса</item>
+        <item quantity="few">доступно %1$d бонуса</item>
+    </plurals>
+    <plurals name="loyalty_program_bonus_burn">
+        <item quantity="other">сгорят %s</item>
+        <item quantity="one">сгорит %s</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d минут назад</item>
+        <item quantity="zero">%1$d минут назад</item>
+        <item quantity="one">%1$d минуту назад</item>
+        <item quantity="two">%1$d минуты назад</item>
+        <item quantity="few">%1$d минуты назад</item>
+        <item quantity="many">%1$d минут назад</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="pin_code_seconds">
+        <item quantity="other">через %d секунд</item>
+        <item quantity="zero">через %d секунд</item>
+        <item quantity="one">через %d секунду</item>
+        <item quantity="two">через %d секунды</item>
+        <item quantity="few">через %d секунды</item>
+        <item quantity="many">через %d секунд</item>
+    </plurals>
+    <plurals name="request_deliver_equipments">
+        <item quantity="other">Привезёт %1$d товаров</item>
+        <item quantity="zero">Привезёт %1$d товаров</item>
+        <item quantity="one">Привезёт %1$d товар</item>
+        <item quantity="two">Привезёт %1$d товара</item>
+        <item quantity="few">Привезёт %1$d товара</item>
+        <item quantity="many">Привезёт %1$d товаров</item>
+    </plurals>
+    <plurals name="request_deliver_services">
+        <item quantity="other">Подключит %1$d услуг</item>
+        <item quantity="zero">Подключит %1$d услуг</item>
+        <item quantity="one">Подключит %1$d услугу</item>
+        <item quantity="two">Подключит %1$d услуги</item>
+        <item quantity="few">Подключит %1$d услуги</item>
+        <item quantity="many">Подключит %1$d услуг</item>
+    </plurals>
+    <plurals name="shared_active">
+        <item quantity="other">%1$d активных</item>
+        <item quantity="zero">%1$d активных</item>
+        <item quantity="one">%1$d активная</item>
+        <item quantity="two">%1$d активные</item>
+        <item quantity="few">%1$d активные</item>
+        <item quantity="many">%1$d активных</item>
+    </plurals>
+    <plurals name="shared_bonus">
+        <item quantity="other">%1$d бонусов</item>
+        <item quantity="zero">%1$d бонусов</item>
+        <item quantity="one">%1$d бонус</item>
+        <item quantity="two">%1$d бонуса</item>
+        <item quantity="few">%1$d бонуса</item>
+        <item quantity="many">%1$d бонусов</item>
+    </plurals>
+    <plurals name="shared_channels">
+        <item quantity="other">%1$d каналов</item>
+        <item quantity="zero">%1$d каналов</item>
+        <item quantity="one">%1$d канал</item>
+        <item quantity="two">%1$d канала</item>
+        <item quantity="few">%1$d каналов</item>
+        <item quantity="many">%1$d каналов</item>
+    </plurals>
+    <plurals name="shared_days">
+        <item quantity="other">%1$d дней</item>
+        <item quantity="zero">%1$d дней</item>
+        <item quantity="one">%1$d день</item>
+        <item quantity="two">%1$d дня</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+    </plurals>
+    <plurals name="shared_first_months">
+        <item quantity="other">первые %1$d месяцев</item>
+        <item quantity="zero">первые %1$d месяцев</item>
+        <item quantity="one">первый месяц</item>
+        <item quantity="two">первые %1$d месяца</item>
+        <item quantity="few">первые %1$d месяца</item>
+        <item quantity="many">первые %1$d месяцев</item>
+    </plurals>
+    <plurals name="shared_months">
+        <item quantity="other">%1$d месяцев</item>
+        <item quantity="zero">%1$d месяцев</item>
+        <item quantity="one">%1$d месяц</item>
+        <item quantity="two">%1$d месяца</item>
+        <item quantity="few">%1$d месяца</item>
+        <item quantity="many">%1$d месяцев</item>
+    </plurals>
+    <plurals name="shared_router">
+        <item quantity="other">%1$d роутеров</item>
+        <item quantity="zero">%1$d роутеров</item>
+        <item quantity="one">%1$d роутер</item>
+        <item quantity="two">%1$d роутера</item>
+        <item quantity="few">%1$d роутера</item>
+        <item quantity="many">%1$d роутеров</item>
+    </plurals>
+    <plurals name="shared_services">
+        <item quantity="other">%1$d услуг</item>
+        <item quantity="zero">%1$d услуг</item>
+        <item quantity="one">%1$d услуга</item>
+        <item quantity="two">%1$d услуги</item>
+        <item quantity="few">%1$d услуги</item>
+        <item quantity="many">%1$d услуг</item>
+    </plurals>
+    <plurals name="shared_tv_channels">
+        <item quantity="other">%1$d ТВ-каналов</item>
+        <item quantity="zero">%1$d ТВ-каналов</item>
+        <item quantity="one">%1$d ТВ-канал</item>
+        <item quantity="two">%1$d ТВ-канала</item>
+        <item quantity="few">%1$d ТВ-канала</item>
+        <item quantity="many">%1$d ТВ-каналов</item>
+    </plurals>
+    <plurals name="sites">
+        <item quantity="other">%1$d сайтам</item>
+        <item quantity="zero">%1$d сайтов</item>
+        <item quantity="one">%1$d сайт</item>
+        <item quantity="two">%1$d сайта</item>
+        <item quantity="few">%1$d сайта</item>
+        <item quantity="many">%1$d сайтам</item>
+    </plurals>
+    <plurals name="sites_lists">
+        <item quantity="other">%1$d сайтов</item>
+        <item quantity="zero">%1$d сайтов</item>
+        <item quantity="one">%1$d сайт</item>
+        <item quantity="two">%1$d сайта</item>
+        <item quantity="few">%1$d сайта</item>
+        <item quantity="many">%1$d сайтов</item>
+    </plurals>
+    <plurals name="station">
+        <item quantity="other">%1$d колонок</item>
+        <item quantity="zero">%1$d колонок</item>
+        <item quantity="one">%1$d колонку</item>
+        <item quantity="two">%1$d колонки</item>
+        <item quantity="few">%1$d колонки</item>
+        <item quantity="many">%1$d колонок</item>
+    </plurals>
+    <plurals name="subscription">
+        <item quantity="other">%1$d подписок</item>
+        <item quantity="zero">%1$d подписок</item>
+        <item quantity="one">%1$d подписку</item>
+        <item quantity="two">%1$d подписки</item>
+        <item quantity="few">%1$d подписки</item>
+        <item quantity="many">%1$d подписок</item>
+    </plurals>
+    <plurals name="subscriptions">
+        <item quantity="other">%1$d подписок</item>
+        <item quantity="zero">%1$d подписок</item>
+        <item quantity="one">%1$d подписка</item>
+        <item quantity="two">%1$d подписки</item>
+        <item quantity="few">%1$d подписки</item>
+        <item quantity="many">%1$d подписок</item>
+    </plurals>
+    <plurals name="suspension_services">
+        <item quantity="other">Услуг %s</item>
+        <item quantity="zero">Услуга %s</item>
+        <item quantity="one">Услуга %s</item>
+        <item quantity="two">Услуги %s</item>
+        <item quantity="few">Услуги %s</item>
+        <item quantity="many">Услуг %s</item>
+    </plurals>
+    <plurals name="suspension_services_change_date">
+        <item quantity="other">%s услуг</item>
+        <item quantity="zero">%s услуг</item>
+        <item quantity="one">%s услуги</item>
+        <item quantity="two">%s услуг</item>
+        <item quantity="few">%s услуг</item>
+        <item quantity="many">%s услуг</item>
+    </plurals>
+    <plurals name="suspension_stopped_services_date">
+        <item quantity="other">%s услуг</item>
+        <item quantity="zero">%s услуг</item>
+        <item quantity="one">%s услугу</item>
+        <item quantity="two">%s услуги</item>
+        <item quantity="few">%s услуги</item>
+        <item quantity="many">%s услуг</item>
+    </plurals>
+    <plurals name="tv_box">
+        <item quantity="other">%1$d приставок</item>
+        <item quantity="zero">%1$d приставок</item>
+        <item quantity="one">%1$d приставку</item>
+        <item quantity="two">%1$d приставки</item>
+        <item quantity="few">%1$d приставки</item>
+        <item quantity="many">%1$d приставок</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M8.246,6.424C8.246,5.637 8.883,5 9.669,5H12.888C15.452,5 17.531,7.078 17.531,9.642C17.531,12.206 15.452,14.285 12.888,14.285H8.246V6.424ZM9.669,6.4C9.657,6.4 9.646,6.411 9.646,6.424V12.884H12.888C14.679,12.884 16.13,11.433 16.13,9.642C16.13,7.852 14.679,6.4 12.888,6.4H9.669Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M14.151,16.963C14.151,17.35 13.838,17.663 13.451,17.663H7.257C6.87,17.663 6.556,17.35 6.556,16.963C6.556,16.576 6.87,16.263 7.257,16.263H13.451C13.838,16.263 14.151,16.576 14.151,16.963Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M11.899,13.584C11.899,13.971 11.585,14.285 11.199,14.285H7.257C6.87,14.285 6.556,13.971 6.556,13.584C6.556,13.198 6.87,12.884 7.257,12.884H11.199C11.585,12.884 11.899,13.198 11.899,13.584Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/brand_icon_dark" android:pathData="M8.946,9.505C9.333,9.505 9.646,9.819 9.646,10.205V18.653C9.646,19.039 9.333,19.353 8.946,19.353C8.559,19.353 8.246,19.039 8.246,18.653V10.205C8.246,9.819 8.559,9.505 8.946,9.505Z" android:fillType="evenOdd" />
+</vector>

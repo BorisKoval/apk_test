@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff20aa4d" android:pathData="M13.3259,8.1559L11.8154,11.1651H11.6644V7.5H9.5161V13.7037H11.3371C11.8154,13.7037 12.2518,13.4491 12.4532,13.0478L13.9637,10.0386H14.1147V13.7037H16.263V7.5H14.442C13.9553,7.5 13.5273,7.7546 13.3259,8.1559" />
+    <path android:fillColor="#ff20aa4d" android:pathData="M5.2699,8.3179L4.372,11.1728H4.221L3.3231,8.3179C3.172,7.8318 2.6937,7.5 2.1483,7.5H0V13.7037H2.1483V10.0386H2.2993L3.5245,13.7037H5.0601L6.2853,10.0386H6.4364V13.7037H8.5846V7.5H6.4448C5.8993,7.5 5.421,7.8318 5.2699,8.3179" />
+    <path android:fillColor="#ff20aa4d" android:pathData="M17.1776,10.3241V13.7115H19.3175V11.7284H21.6252C22.6238,11.7284 23.4797,11.142 23.7902,10.3164H17.1776V10.3241Z" />
+    <path android:fillColor="@drawable/$paytype_mir__0" android:pathData="M21.6335,7.5H16.8755C17.1608,8.9429 18.537,10.0386 20.1902,10.0386H23.8825C23.916,9.8997 23.9244,9.7608 23.9244,9.6142C23.9328,8.4491 22.9007,7.5 21.6335,7.5" />
+</vector>

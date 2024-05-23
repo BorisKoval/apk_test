@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_quar_small" android:src="@drawable/ic_bottom_dialog_pull" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textAppearance="@style/App.TextAppearance.H3" android:textColor="@color/textPrimary" android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_quar_small" android:layout_marginStart="@dimen/margin_xmedium" android:layout_marginEnd="@dimen/margin_xmedium" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/App.TextAppearance.M" android:textColor="@color/textInfo" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half_medium" android:layout_marginStart="@dimen/margin_xmedium" android:layout_marginEnd="@dimen/margin_xmedium" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/variants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_tiny" android:layout_marginStart="@dimen/margin_xmedium" android:layout_marginEnd="@dimen/margin_xmedium" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/description" app:layout_constraintVertical_bias="0.0" app:layout_goneMarginTop="@dimen/margin_half_medium" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

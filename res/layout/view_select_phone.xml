@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ru.agima.mobile.domru.ui.views.button.SelectionButton android:id="@id/phoneChooser" android:layout_width="0.0dip" android:layout_height="wrap_content" app:compoundDrawable="@drawable/ic_arrow_right" app:hint="@string/phone_number_required" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ru.agima.mobile.domru.ui.views.PhoneTextInput android:id="@id/phone" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:importantForAutofill="noExcludeDescendants" app:hintTextInput="@string/new_phone_number_required" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/phoneChooser" app:layout_goneMarginTop="0.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half_medium" android:checkable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:padding="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.M" android:textColor="@color/textPrimary" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+        <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.M" android:textColor="@color/textPrimary" android:id="@id/priceDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" app:layout_constraintTop_toBottomOf="@id/title" />
+        <View android:id="@id/divider" android:background="@drawable/divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/margin_medium" app:layout_constraintTop_toBottomOf="@id/priceDescription" />
+        <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.M" android:textColor="@color/textPrimary" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium" app:layout_constraintTop_toBottomOf="@id/divider" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

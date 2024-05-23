@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="170.0dip" android:layout_height="158.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/iv_image" android:background="@color/brand_component_control" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" style="@style/App.ShapeableImageView.ProductCard.Small" />
+    <include android:layout_gravity="center" android:id="@id/vg_progressbar" android:layout_width="50.0dip" android:layout_height="50.0dip" layout="@layout/layout_chat_image_progressbar" />
+</FrameLayout>

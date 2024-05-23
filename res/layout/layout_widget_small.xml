@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/widgetLayout" android:background="@drawable/widget_background_small" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/margin_tiny" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_small" android:paddingEnd="@dimen/margin_tiny">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/agreementLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/agreementActive" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+            <TextView android:textAppearance="@style/App.TextAppearance.XS" android:textColor="?widgetColorPrimary" android:gravity="center_vertical" android:id="@id/agreementNumber" android:padding="@dimen/margin_tiny" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/autopay" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+            <TextView android:textAppearance="@style/App.TextAppearance.XS" android:textColor="?widgetColorPrimary" android:gravity="end|center" android:id="@id/updateTime" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:id="@id/refresh" android:padding="@dimen/margin_tiny" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_refresh" android:tint="?widgetColorPrimary" />
+            <ProgressBar android:id="@id/refreshProgress" android:padding="@dimen/margin_tiny" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/widget_update_progress" android:indeterminateTint="?widgetColorPrimary" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/balanceLayout" android:paddingBottom="@dimen/margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="@dimen/margin_small">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/margin_small">
+                <TextView android:textAppearance="@style/App.TextAppearance.XXS" android:textColor="?widgetColorSecondary" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/balance" android:includeFontPadding="false" />
+                <TextView android:textAppearance="@style/App.TextAppearance.H4" android:textColor="?widgetColorPrimary" android:id="@id/balance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_balance_value_unknown" android:includeFontPadding="false" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/pay" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/placeholderLayout" android:paddingTop="@dimen/margin_tiny" android:paddingBottom="@dimen/margin_small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="0.0dip" android:paddingEnd="@dimen/margin_tiny">
+            <TextView android:textAppearance="@style/App.TextAppearance.S" android:textColor="?widgetColorPrimary" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_select_agreement" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:src="@drawable/ic_logo" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

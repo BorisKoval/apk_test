@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_main" android:id="@id/navigation_home" android:title="@string/title_home" />
+    <item android:icon="@drawable/ic_services" android:id="@id/navigation_services" android:title="@string/title_services" />
+    <item android:icon="@drawable/ic_center_control" android:id="@id/navigation_equipment" android:title="@string/title_equipment" />
+    <item android:icon="@drawable/ic_heart_filled" android:id="@id/navigation_service" android:title="@string/title_help" />
+    <item android:icon="@drawable/ic_profile_checked" android:id="@id/navigation_more" android:title="@string/more_title" />
+</menu>

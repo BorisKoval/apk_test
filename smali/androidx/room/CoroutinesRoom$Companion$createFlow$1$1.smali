@@ -1,0 +1,436 @@
+.class final Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lj50/e;
+
+
+# annotations
+.annotation runtime Ld50/c;
+    c = "androidx.room.CoroutinesRoom$Companion$createFlow$1$1"
+    f = "CoroutinesRoom.kt"
+    l = {
+        0x89
+    }
+    m = "invokeSuspend"
+.end annotation
+
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/room/CoroutinesRoom$Companion$createFlow$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lj50/e;"
+    }
+.end annotation
+
+
+# instance fields
+.field final synthetic $$this$flow:Lkotlinx/coroutines/flow/l;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lkotlinx/coroutines/flow/l;"
+        }
+    .end annotation
+.end field
+
+.field final synthetic $callable:Ljava/util/concurrent/Callable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/Callable<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field final synthetic $db:Landroidx/room/y;
+
+.field final synthetic $inTransaction:Z
+
+.field final synthetic $tableNames:[Ljava/lang/String;
+
+.field private synthetic L$0:Ljava/lang/Object;
+
+.field label:I
+
+
+# direct methods
+.method public constructor <init>(ZLandroidx/room/y;Lkotlinx/coroutines/flow/l;[Ljava/lang/String;Ljava/util/concurrent/Callable;Lkotlin/coroutines/d;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(Z",
+            "Landroidx/room/y;",
+            "Lkotlinx/coroutines/flow/l;",
+            "[",
+            "Ljava/lang/String;",
+            "Ljava/util/concurrent/Callable<",
+            "Ljava/lang/Object;",
+            ">;",
+            "Lkotlin/coroutines/d<",
+            "-",
+            "Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-boolean p1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$inTransaction:Z
+
+    iput-object p2, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$db:Landroidx/room/y;
+
+    iput-object p3, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$$this$flow:Lkotlinx/coroutines/flow/l;
+
+    iput-object p4, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$tableNames:[Ljava/lang/String;
+
+    iput-object p5, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$callable:Ljava/util/concurrent/Callable;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p6}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+    .locals 8
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/d<",
+            "*>;)",
+            "Lkotlin/coroutines/d<",
+            "La50/s;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v7, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;
+
+    iget-boolean v1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$inTransaction:Z
+
+    iget-object v2, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$db:Landroidx/room/y;
+
+    iget-object v3, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$$this$flow:Lkotlinx/coroutines/flow/l;
+
+    iget-object v4, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$tableNames:[Ljava/lang/String;
+
+    iget-object v5, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$callable:Ljava/util/concurrent/Callable;
+
+    move-object v0, v7
+
+    move-object v6, p2
+
+    invoke-direct/range {v0 .. v6}, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;-><init>(ZLandroidx/room/y;Lkotlinx/coroutines/flow/l;[Ljava/lang/String;Ljava/util/concurrent/Callable;Lkotlin/coroutines/d;)V
+
+    iput-object p1, v7, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->L$0:Ljava/lang/Object;
+
+    return-object v7
+.end method
+
+.method public bridge synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    check-cast p1, Lkotlinx/coroutines/a0;
+
+    check-cast p2, Lkotlin/coroutines/d;
+
+    invoke-virtual {p0, p1, p2}, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->invoke(Lkotlinx/coroutines/a0;Lkotlin/coroutines/d;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invoke(Lkotlinx/coroutines/a0;Lkotlin/coroutines/d;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlinx/coroutines/a0;",
+            "Lkotlin/coroutines/d<",
+            "-",
+            "La50/s;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->create(Ljava/lang/Object;Lkotlin/coroutines/d;)Lkotlin/coroutines/d;
+
+    move-result-object p1
+
+    check-cast p1, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;
+
+    sget-object p2, La50/s;->a:La50/s;
+
+    invoke-virtual {p1, p2}, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 14
+
+    .line 1
+    sget-object v0, Lkotlin/coroutines/intrinsics/CoroutineSingletons;->COROUTINE_SUSPENDED:Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    .line 2
+    .line 3
+    iget v1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->label:I
+
+    .line 4
+    .line 5
+    sget-object v2, La50/s;->a:La50/s;
+
+    .line 6
+    .line 7
+    const/4 v3, 0x1
+
+    .line 8
+    if-eqz v1, :cond_1
+
+    .line 9
+    .line 10
+    if-ne v1, v3, :cond_0
+
+    .line 11
+    .line 12
+    invoke-static {p1}, Lkotlin/b;->b(Ljava/lang/Object;)V
+
+    .line 13
+    .line 14
+    .line 15
+    goto :goto_2
+
+    .line 16
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalStateException;
+
+    .line 17
+    .line 18
+    const-string v0, "call to \'resume\' before \'invoke\' with coroutine"
+
+    .line 19
+    .line 20
+    invoke-direct {p1, v0}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    .line 21
+    .line 22
+    .line 23
+    throw p1
+
+    .line 24
+    :cond_1
+    invoke-static {p1}, Lkotlin/b;->b(Ljava/lang/Object;)V
+
+    .line 25
+    .line 26
+    .line 27
+    iget-object p1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->L$0:Ljava/lang/Object;
+
+    .line 28
+    .line 29
+    check-cast p1, Lkotlinx/coroutines/a0;
+
+    .line 30
+    .line 31
+    const/4 v1, -0x1
+
+    .line 32
+    const/4 v4, 0x6
+
+    .line 33
+    const/4 v5, 0x0
+
+    .line 34
+    invoke-static {v1, v5, v4}, Lot/t;->a(ILkotlinx/coroutines/channels/BufferOverflow;I)Lkotlinx/coroutines/channels/b;
+
+    .line 35
+    .line 36
+    .line 37
+    move-result-object v9
+
+    .line 38
+    new-instance v8, Landroidx/room/b;
+
+    .line 39
+    .line 40
+    iget-object v1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$tableNames:[Ljava/lang/String;
+
+    .line 41
+    .line 42
+    invoke-direct {v8, v1, v9}, Landroidx/room/b;-><init>([Ljava/lang/String;Lkotlinx/coroutines/channels/b;)V
+
+    .line 43
+    .line 44
+    .line 45
+    invoke-interface {v9, v2}, Lkotlinx/coroutines/channels/p;->s(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 46
+    .line 47
+    .line 48
+    invoke-interface {p1}, Lkotlinx/coroutines/a0;->getCoroutineContext()Lkotlin/coroutines/j;
+
+    .line 49
+    .line 50
+    .line 51
+    move-result-object v1
+
+    .line 52
+    sget-object v4, Landroidx/room/e0;->a:Lio/sentry/hints/h;
+
+    .line 53
+    .line 54
+    invoke-interface {v1, v4}, Lkotlin/coroutines/j;->get(Lkotlin/coroutines/i;)Lkotlin/coroutines/h;
+
+    .line 55
+    .line 56
+    .line 57
+    move-result-object v1
+
+    .line 58
+    invoke-static {v1}, Landroid/support/v4/media/d;->D(Lkotlin/coroutines/h;)V
+
+    .line 59
+    .line 60
+    .line 61
+    iget-boolean v1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$inTransaction:Z
+
+    .line 62
+    .line 63
+    if-eqz v1, :cond_2
+
+    .line 64
+    .line 65
+    iget-object v1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$db:Landroidx/room/y;
+
+    .line 66
+    .line 67
+    invoke-static {v1}, Lcom/bumptech/glide/e;->N(Landroidx/room/y;)Lkotlinx/coroutines/w;
+
+    .line 68
+    .line 69
+    .line 70
+    move-result-object v1
+
+    .line 71
+    goto :goto_0
+
+    .line 72
+    :cond_2
+    iget-object v1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$db:Landroidx/room/y;
+
+    .line 73
+    .line 74
+    invoke-static {v1}, Lcom/bumptech/glide/e;->M(Landroidx/room/y;)Lkotlinx/coroutines/w;
+
+    .line 75
+    .line 76
+    .line 77
+    move-result-object v1
+
+    .line 78
+    :goto_0
+    const/4 v4, 0x0
+
+    .line 79
+    const/4 v6, 0x7
+
+    .line 80
+    invoke-static {v4, v5, v6}, Lot/t;->a(ILkotlinx/coroutines/channels/BufferOverflow;I)Lkotlinx/coroutines/channels/b;
+
+    .line 81
+    .line 82
+    .line 83
+    move-result-object v4
+
+    .line 84
+    new-instance v13, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1$1;
+
+    .line 85
+    .line 86
+    iget-object v7, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$db:Landroidx/room/y;
+
+    .line 87
+    .line 88
+    iget-object v10, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$callable:Ljava/util/concurrent/Callable;
+
+    .line 89
+    .line 90
+    const/4 v12, 0x0
+
+    .line 91
+    move-object v6, v13
+
+    .line 92
+    move-object v11, v4
+
+    .line 93
+    invoke-direct/range {v6 .. v12}, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1$1;-><init>(Landroidx/room/y;Landroidx/room/b;Lkotlinx/coroutines/channels/e;Ljava/util/concurrent/Callable;Lkotlinx/coroutines/channels/e;Lkotlin/coroutines/d;)V
+
+    .line 94
+    .line 95
+    .line 96
+    const/4 v6, 0x2
+
+    .line 97
+    invoke-static {p1, v1, v5, v13, v6}, Lp10/g;->z(Lkotlinx/coroutines/a0;Lkotlinx/coroutines/w;Lkotlinx/coroutines/CoroutineStart;Lj50/e;I)Lkotlinx/coroutines/t1;
+
+    .line 98
+    .line 99
+    .line 100
+    iget-object p1, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->$$this$flow:Lkotlinx/coroutines/flow/l;
+
+    .line 101
+    .line 102
+    iput v3, p0, Landroidx/room/CoroutinesRoom$Companion$createFlow$1$1;->label:I
+
+    .line 103
+    .line 104
+    invoke-static {p1, v4, v3, p0}, Lkotlinx/coroutines/flow/o;->h(Lkotlinx/coroutines/flow/l;Lkotlinx/coroutines/channels/o;ZLkotlin/coroutines/d;)Ljava/lang/Object;
+
+    .line 105
+    .line 106
+    .line 107
+    move-result-object p1
+
+    .line 108
+    if-ne p1, v0, :cond_3
+
+    .line 109
+    .line 110
+    goto :goto_1
+
+    .line 111
+    :cond_3
+    move-object p1, v2
+
+    .line 112
+    :goto_1
+    if-ne p1, v0, :cond_4
+
+    .line 113
+    .line 114
+    return-object v0
+
+    .line 115
+    :cond_4
+    :goto_2
+    return-object v2
+.end method

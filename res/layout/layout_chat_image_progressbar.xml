@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="50.0dip" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.3" app:shapeAppearance="@style/App.Shape.ImageView.Circle" app:srcCompat="@color/brand_component_gray_dark" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/pb_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" app:indicatorColor="@color/brand_light" app:trackThickness="2.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/iv_cancel" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_close" app:tint="@color/brand_light" />
+    <ImageView android:layout_gravity="center" android:id="@id/ic_download" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_arrow_down_full" app:tint="@color/brand_light" />
+</FrameLayout>

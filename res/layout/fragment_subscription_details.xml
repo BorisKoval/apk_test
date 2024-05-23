@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ru.agima.mobile.domru.ui.views.PagerImageViewer android:id="@id/image" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="H,3:2" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" app:navigationIcon="?homeAsUpIndicator">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/toolbarContent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/App.TextAppearance.H4" android:textColor="@color/textPrimary" android:id="@id/toolbarTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/margin_medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <androidx.compose.ui.platform.ComposeView android:id="@id/advertising" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/margin_medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.appbar.MaterialToolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_overlapTop="@dimen/details_height" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.core.widget.NestedScrollView android:id="@id/scroll" android:background="@drawable/background_top_round_details" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <ru.agima.mobile.domru.ui.views.service.ServiceDetailView android:id="@id/detail" android:paddingBottom="112.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/actionLayout" android:padding="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ru.agima.mobile.domru.ui.views.button.SkeletonButton android:id="@id/action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small" />
+        <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.XS" android:textColor="@color/textHint" android:gravity="center" android:id="@id/actionInfo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

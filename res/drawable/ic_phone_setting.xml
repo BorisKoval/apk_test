@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0H24.0001V24.0001H0V0Z" />
+        <path android:fillColor="@drawable/$ic_phone_setting__0" android:pathData="M7.5,0L16.5001,0A7.5,7.5 0,0 1,24.0001 7.5L24.0001,16.5001A7.5,7.5 0,0 1,16.5001 24.0001L7.5,24.0001A7.5,7.5 0,0 1,0 16.5001L0,7.5A7.5,7.5 0,0 1,7.5 0z" />
+        <path android:fillColor="#fffafafa" android:pathData="M11.7228,12.2797C14.0847,14.641 14.6205,11.9093 16.1244,13.4121C17.5743,14.8615 18.4076,15.1519 16.5706,16.9883C16.3405,17.1733 14.8786,19.3979 9.7409,14.2617C4.6025,9.1247 6.8259,7.6613 7.0109,7.4313C8.8523,5.5898 9.1377,6.4279 10.5875,7.8774C12.0914,9.3808 9.3608,9.9184 11.7228,12.2797Z" android:fillType="evenOdd" />
+        <path android:fillColor="#00000000" android:pathData="M13.875,5.8125C16.1029,6.0599 17.8631,7.8177 18.1129,10.0456" android:strokeColor="#ffffffff" android:strokeWidth="0.937503" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.6" android:fillAlpha="0.6" />
+        <path android:fillColor="#00000000" android:pathData="M13.5,8.25C14.5661,8.4571 15.3992,9.2908 15.6069,10.3569" android:strokeColor="#ffffffff" android:strokeWidth="0.937503" android:strokeLineCap="round" android:strokeLineJoin="round" android:strokeAlpha="0.6" android:fillAlpha="0.6" />
+    </group>
+</vector>

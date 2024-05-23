@@ -1,0 +1,76 @@
+.class final synthetic Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestFragmentKt$CreateCallbackRequestScreen$4;
+.super Lkotlin/jvm/internal/FunctionReferenceImpl;
+.source "SourceFile"
+
+# interfaces
+.implements Lj50/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/FunctionReferenceImpl;",
+        "Lj50/a;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 7
+
+    const/4 v1, 0x0
+
+    const-class v3, Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestViewModel;
+
+    const-string v4, "createRequest"
+
+    const-string v5, "createRequest()V"
+
+    const/4 v6, 0x0
+
+    move-object v0, p0
+
+    move-object v2, p1
+
+    invoke-direct/range {v0 .. v6}, Lkotlin/jvm/internal/FunctionReferenceImpl;-><init>(ILjava/lang/Object;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/String;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestFragmentKt$CreateCallbackRequestScreen$4;->invoke()V
+
+    sget-object v0, La50/s;->a:La50/s;
+
+    return-object v0
+.end method
+
+.method public final invoke()V
+    .locals 3
+
+    iget-object v0, p0, Lkotlin/jvm/internal/CallableReference;->receiver:Ljava/lang/Object;
+
+    .line 2
+    check-cast v0, Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestViewModel;
+
+    .line 3
+    iget-object v1, v0, Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestViewModel;->h:Lcom/ertelecom/mydomru/analytics/common/a;
+
+    const-string v2, "tap_to_callback"
+
+    .line 4
+    invoke-static {v1, v2}, Lx10/a;->r(Lcom/ertelecom/mydomru/analytics/common/a;Ljava/lang/String;)V
+
+    sget-object v1, Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestViewModel$createRequest$1;->INSTANCE:Lcom/ertelecom/mydomru/request/ui/screen/createcallback/CreateCallbackRequestViewModel$createRequest$1;
+
+    .line 5
+    invoke-virtual {v0, v1}, Lcom/ertelecom/mydomru/feature/base/BaseViewModel;->f(Lj50/c;)V
+
+    return-void
+.end method

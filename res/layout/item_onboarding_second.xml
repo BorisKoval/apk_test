@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#fffe312c" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:paddingBottom="192.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/onboarding_second_content" android:scaleType="fitCenter" />
+    <include layout="@layout/item_onboarding" />
+</androidx.constraintlayout.widget.ConstraintLayout>

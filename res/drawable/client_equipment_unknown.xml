@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="72.0dip" android:viewportWidth="72.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/brand_background_substrate" android:pathData="M0,0h72v48h-72z" />
+    <path android:fillColor="@color/brand_component_tab" android:pathData="M29.768,18.58C31.424,18.58 32.768,17.237 32.768,15.58C32.768,13.923 31.424,12.58 29.768,12.58C28.111,12.58 26.768,13.923 26.768,15.58C26.768,17.237 28.111,18.58 29.768,18.58ZM22.584,35.42H49.418C50.507,35.42 51.223,34.283 50.753,33.301L43.589,18.34C43.055,17.224 41.468,17.218 40.924,18.33L36.04,28.331C35.588,29.257 34.352,29.449 33.64,28.704L29.524,24.396C28.876,23.717 27.768,23.806 27.235,24.579L21.365,33.101C20.689,34.083 21.392,35.42 22.584,35.42Z" android:fillType="evenOdd" />
+</vector>

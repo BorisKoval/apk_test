@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationIcon="?homeAsUpIndicator">
+            <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.H4" android:textColor="@color/textPrimary" android:id="@id/toolbarTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/margin_medium" />
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/appBar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/equipment" android:paddingBottom="@dimen/margin_medium" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/totalBottomSheet" android:background="@color/brand_surface" android:padding="@dimen/margin_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/margin_xmedium" app:layout_constraintBottom_toBottomOf="parent">
+                <TextView android:textAppearance="@style/App.TextAppearance.H5" android:textColor="@color/textPrimary" android:id="@id/totalTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/total" android:layout_marginEnd="@dimen/margin_medium" app:layout_constraintEnd_toStartOf="@id/totalValue" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textAppearance="@style/App.TextAppearance.H5" android:textColor="@color/textPrimary" android:id="@id/totalValue" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/totalTitle" app:layout_constraintTop_toTopOf="parent" />
+                <Button android:id="@id/checkout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium" android:text="@string/to_checkout" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/totalTitle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

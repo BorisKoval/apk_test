@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true">
+        <set>
+            <objectAnimator android:interpolator="@null" android:duration="0" android:valueTo="2.0dip" android:valueType="intType" android:propertyName="strokeWidth" android:startDelay="0" />
+        </set>
+    </item>
+    <item android:state_enabled="true">
+        <set>
+            <objectAnimator android:interpolator="@null" android:duration="0" android:valueTo="0.0dip" android:valueType="intType" android:propertyName="strokeWidth" android:startDelay="0" />
+        </set>
+    </item>
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_quar_small" android:layout_marginBottom="@dimen/margin_quar_small" android:src="@drawable/ic_bottom_dialog_pull" />
+    <TextView android:textAppearance="@style/App.TextAppearance.H3" android:textColor="@color/textPrimary" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_phone_number" android:layout_marginStart="@dimen/margin_xmedium" android:layout_marginEnd="@dimen/margin_xmedium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/variants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium" android:layout_marginBottom="@dimen/margin_tiny" android:layout_marginStart="@dimen/margin_xmedium" android:layout_marginEnd="@dimen/margin_xmedium" />
+</LinearLayout>

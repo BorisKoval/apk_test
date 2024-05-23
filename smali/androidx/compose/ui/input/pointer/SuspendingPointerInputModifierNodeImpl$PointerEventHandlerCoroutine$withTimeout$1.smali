@@ -1,0 +1,89 @@
+.class final Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;
+.super Lkotlin/coroutines/jvm/internal/ContinuationImpl;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Ld50/c;
+    c = "androidx.compose.ui.input.pointer.SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine"
+    f = "SuspendingPointerInputFilter.kt"
+    l = {
+        0x2d8
+    }
+    m = "withTimeout"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lkotlin/coroutines/jvm/internal/ContinuationImpl;"
+    }
+.end annotation
+
+
+# instance fields
+.field L$0:Ljava/lang/Object;
+
+.field label:I
+
+.field synthetic result:Ljava/lang/Object;
+
+.field final synthetic this$0:Landroidx/compose/ui/input/pointer/d0;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/compose/ui/input/pointer/d0;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Landroidx/compose/ui/input/pointer/d0;Lkotlin/coroutines/d;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/compose/ui/input/pointer/d0;",
+            "Lkotlin/coroutines/d<",
+            "-",
+            "Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;->this$0:Landroidx/compose/ui/input/pointer/d0;
+
+    invoke-direct {p0, p2}, Lkotlin/coroutines/jvm/internal/ContinuationImpl;-><init>(Lkotlin/coroutines/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    iput-object p1, p0, Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;->result:Ljava/lang/Object;
+
+    iget p1, p0, Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;->label:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;->label:I
+
+    iget-object p1, p0, Landroidx/compose/ui/input/pointer/SuspendingPointerInputModifierNodeImpl$PointerEventHandlerCoroutine$withTimeout$1;->this$0:Landroidx/compose/ui/input/pointer/d0;
+
+    const-wide/16 v0, 0x0
+
+    const/4 v2, 0x0
+
+    invoke-virtual {p1, v0, v1, v2, p0}, Landroidx/compose/ui/input/pointer/d0;->h(JLj50/e;Lkotlin/coroutines/d;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method

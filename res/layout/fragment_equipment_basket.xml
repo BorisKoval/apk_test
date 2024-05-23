@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="?homeAsUpIndicator">
+            <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.H4" android:textColor="@color/textPrimary" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/basket" android:layout_marginEnd="@dimen/margin_medium" />
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefresh" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/totalBottomSheet" app:layout_constraintTop_toBottomOf="@id/appbar">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingBottom="@dimen/margin_xmedium" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/totalBottomSheet" android:background="@color/brand_surface" android:padding="@dimen/margin_medium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="24.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.H5" android:textColor="@color/textPrimary" android:id="@id/totalTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/total" app:layout_constraintEnd_toStartOf="@id/totalValue" app:layout_constraintHorizontal_chainStyle="spread_inside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/price" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:id="@id/next" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_medium" android:text="@string/make_order" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

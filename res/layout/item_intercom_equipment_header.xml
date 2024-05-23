@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half_small" android:layout_marginBottom="@dimen/margin_half_medium" android:layout_marginStart="@dimen/margin_medium" android:layout_marginEnd="@dimen/margin_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ru.agima.mobile.domru.ui.views.LoadingTextView android:textAppearance="@style/App.TextAppearance.S" android:textColor="@color/textPrimary" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

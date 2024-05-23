@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/margin_xmedium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AlertDialog.Title" />
+    <TextView android:id="@id/body" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" style="@style/AlertDialog.Body" />
+    <Button android:id="@id/positive" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_xmedium" style="@style/App.Widget.Button" />
+    <Button android:id="@id/negative" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half_medium" style="@style/App.Widget.Button.Secondary" />
+    <Button android:id="@id/neutral" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half_medium" style="@style/App.Widget.Button.Secondary" />
+</LinearLayout>
